@@ -1,0 +1,93 @@
+/* --------------- CSS General Style ------------------ */
+
+#app .title-container{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --------------- CSS Navbar ------------------ */
+
+.navbar {
+    background-color: #1e81b0; 
+}
+
+.navbar-brand,.nav-link {
+    color: #fff;
+    transition: color 0.3s; 
+    margin: 0%;
+}
+
+.navbar-brand:hover,.nav-link:hover {
+    color: #063350; 
+}
+
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+/* --------------- CSS Button & Image Style ------------------ */
+
+.rounded-image {
+    border-radius: 20%; 
+}
+
+.btn-custom-color {
+    background-color: #1e81b0;
+    color: #fff;
+
+}
+
+.btn-custom-color:hover {
+    background-color: #063350;
+    color: #fff;
+}
+
+/* --------------- CSS Destination section ------------------ */
+
+.title-box {
+    background-color: #1e81b0; 
+    color: #fff; 
+    border-radius: 10px; 
+    padding: 10px; 
+    text-align: center; 
+    cursor: pointer; 
+    width: 500px; 
+    height: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    margin: auto;
+    width: 500px; 
+    height: 350px;
+}
+
+.image-wrapper{
+    position: relative;
+}
+
+.img_settings {
+    width: 500px; 
+    height: 350px; 
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0px;
+    filter: brightness(0.5);
+}
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    padding: 10px;
+
+}
