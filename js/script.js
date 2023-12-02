@@ -1,4 +1,3 @@
-
 var app = Vue.createApp({
     data() {
       return {
@@ -27,10 +26,12 @@ var app = Vue.createApp({
     methods: {
       nextItem() {
         this.index = (this.index + 1) % this.destinations.length;
+        this.displayTitle = true;
 
       },
       prevItem() {
         this.index = (this.index - 1 + this.destinations.length) % this.destinations.length;
+        this.displayTitle = true;
       },
       toggleDisplay() {
         this.displayTitle = !this.displayTitle;

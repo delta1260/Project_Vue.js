@@ -17,7 +17,7 @@
 }
 
 .navbar-brand:hover,.nav-link:hover {
-    color: #063350; 
+    color: #eeeeee; 
 }
 
 .navbar-expand-lg {
@@ -48,6 +48,7 @@
 
 /* --------------- CSS Destination section ------------------ */
 
+
 .title-box {
     background-color: #1e81b0; 
     color: #fff; 
@@ -71,6 +72,7 @@
 
 .image-wrapper{
     position: relative;
+    bottom: 16px;
 }
 
 .img_settings {
@@ -89,5 +91,4 @@
     z-index: 1;
     color: white;
     padding: 10px;
-
 }
