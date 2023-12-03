@@ -81,7 +81,7 @@
     object-fit: cover;
     border-radius: 10px;
     margin: 0px;
-    filter: brightness(0.5);
+   filter: brightness(0.5);
 }
 .overlay-text {
     position: absolute;
