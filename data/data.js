@@ -14,4 +14,24 @@ const destinations = [
       def: "Toronto is the capital city of the Canadian province of Ontario. It is a major financial and cultural hub, known for its diverse population, iconic CN Tower, and vibrant arts and entertainment scene.",
       img: "./assets/toronto_canada.png"
     },
-]
+];
+
+const userInput = 
+  {
+    lastName: "",
+    firstName: "",
+    selectedDestination: "",
+    departureDate: "",
+    returnDate: "",
+    checkedBaggage: 0,
+    carryOnBaggage: 0,
+
+};
+
+
+const packages = [
+  { name: "Basic Package", price: 499.99 },
+  { name: "Business Package", price: 999.99 },
+  { name: "Premium Package", price: 1499.99 },
+];
+

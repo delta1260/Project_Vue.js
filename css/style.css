@@ -46,6 +46,7 @@
     color: #fff;
 }
 
+
 /* --------------- CSS Destination section ------------------ */
 
 
@@ -92,3 +93,28 @@
     color: white;
     padding: 10px;
 }
+
+/* --------------- CSS Flip card ------------------ */
+
+.rotate {
+    transform: rotateY(360deg);
+    transition: transform 0.5s ease; 
+}
+/* --------------- CSS Order section ------------------ */
+
+#order h1,h2,h3 {
+    text-align: center;
+}
+#lastName,#firstName,#recapFirstName,#recapLastName{
+    max-width: 250px;
+    width: 100%; 
+}
+#checkedBaggage,#carryOnBaggage,#recapCheckedBaggage,#recapCarryOnBaggage{
+    max-width: 70px;
+    width: 100%; 
+}
+#recapDestinationOffer,#recapReturnDate,#recapDepartureDate,#recapDestination,#departureDate,#returnDate,#recapTotalPrice{
+    max-width: 170px;
+    width: 100%; 
+}
+
